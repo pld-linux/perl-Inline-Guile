@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pnam	Guile
-Summary:	Inline::Guile perl module
-Summary(pl):	Modu³ perla Inline::Guile
+%define		pdir	Inline
+%define		pnam	Guile
+Summary:	Inline::Guile Perl module
+Summary(cs):	Modul Inline::Guile pro Perl
+Summary(da):	Perlmodul Inline::Guile
+Summary(de):	Inline::Guile Perl Modul
+Summary(es):	Módulo de Perl Inline::Guile
+Summary(fr):	Module Perl Inline::Guile
+Summary(it):	Modulo di Perl Inline::Guile
+Summary(ja):	Inline::Guile Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::Guile ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::Guile
+Summary(pl):	Modu³ Perla Inline::Guile
+Summary(pt):	Módulo de Perl Inline::Guile
+Summary(pt_BR):	Módulo Perl Inline::Guile
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Guile
+Summary(sv):	Inline::Guile Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Guile
+Summary(zh_CN):	Inline::Guile Perl Ä£¿é
 Name:		perl-Inline-Guile
 Version:	0.001
 Release:	1
@@ -31,6 +49,7 @@ na dodawanie bloków kodu Scheme do skryptów i modu³ów Perla.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
