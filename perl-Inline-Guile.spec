@@ -49,7 +49,7 @@ na dodawanie bloków kodu Scheme do skryptów i modu³ów Perla.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
