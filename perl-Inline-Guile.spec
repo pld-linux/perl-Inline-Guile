@@ -25,7 +25,7 @@ Summary(zh_CN):	Inline::Guile Perl Ä£¿é
 Name:		perl-Inline-Guile
 Version:	0.001
 Release:	2
-License:	Artistic or GPL
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2e1926f838cd44f244ab16ca7a655cb7
