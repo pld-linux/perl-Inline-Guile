@@ -5,33 +5,18 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pnam	Guile
-Summary:	Inline::Guile Perl module
-Summary(cs):	Modul Inline::Guile pro Perl
-Summary(da):	Perlmodul Inline::Guile
-Summary(de):	Inline::Guile Perl Modul
-Summary(es):	Módulo de Perl Inline::Guile
-Summary(fr):	Module Perl Inline::Guile
-Summary(it):	Modulo di Perl Inline::Guile
-Summary(ja):	Inline::Guile Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Inline::Guile ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Inline::Guile
-Summary(pl):	Modu³ Perla Inline::Guile
-Summary(pt):	Módulo de Perl Inline::Guile
-Summary(pt_BR):	Módulo Perl Inline::Guile
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Guile
-Summary(sv):	Inline::Guile Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Guile
-Summary(zh_CN):	Inline::Guile Perl Ä£¿é
+Summary:	Inline::Guile - an Inline module for the GNU Guile Scheme interpreter
+Summary(pl):	Inline::Guile - modu³ Inline dla interpretera Scheme GNU Guile
 Name:		perl-Inline-Guile
 Version:	0.001
-Release:	2
+Release:	3
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2e1926f838cd44f244ab16ca7a655cb7
-BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Guile >= 0.001
 BuildRequires:	perl-Inline >= 0.43
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
