@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Inline::Guile
 Summary(it):	Modulo di Perl Inline::Guile
 Summary(ja):	Inline::Guile Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::Guile ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::Guile
+Summary(nb):	Perlmodul Inline::Guile
 Summary(pl):	Modu³ Perla Inline::Guile
 Summary(pt):	Módulo de Perl Inline::Guile
 Summary(pt_BR):	Módulo Perl Inline::Guile
