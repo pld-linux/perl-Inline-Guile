@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pnam	Guile
+%define		pdir	Inline
+%define		pnam	Guile
 Summary:	Inline::Guile - an Inline module for the GNU Guile Scheme interpreter
 Summary(pl):	Inline::Guile - modu³ Inline dla interpretera Scheme GNU Guile
 Name:		perl-Inline-Guile
