@@ -47,7 +47,7 @@ na dodawanie bloków kodu Scheme do skryptów i modu³ów Perla.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
