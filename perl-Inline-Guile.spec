@@ -6,7 +6,7 @@
 %define		pdir	Inline
 %define		pnam	Guile
 Summary:	Inline::Guile - an Inline module for the GNU Guile Scheme interpreter
-Summary(pl):	Inline::Guile - modu≥ Inline dla interpretera Scheme GNU Guile
+Summary(pl.UTF-8):   Inline::Guile - modu≈Ç Inline dla interpretera Scheme GNU Guile
 Name:		perl-Inline-Guile
 Version:	0.001
 Release:	3
@@ -26,9 +26,9 @@ Inline::Guile - Inline module for the GNU Guile Scheme interpreter.
 It allows you to add blocks of Scheme code to your Perl scripts and
 modules.
 
-%description -l pl
-Inline::Guile - modu≥ Inline do interpretera Scheme GNU Guile. Pozwala
-na dodawanie blokÛw kodu Scheme do skryptÛw i modu≥Ûw Perla.
+%description -l pl.UTF-8
+Inline::Guile - modu≈Ç Inline do interpretera Scheme GNU Guile. Pozwala
+na dodawanie blok√≥w kodu Scheme do skrypt√≥w i modu≈Ç√≥w Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
