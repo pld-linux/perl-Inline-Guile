@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Inline
 %define		pnam	Guile
+%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::Guile - an Inline module for the GNU Guile Scheme interpreter
 Summary(pl.UTF-8):	Inline::Guile - moduł Inline dla interpretera Scheme GNU Guile
 Name:		perl-Inline-Guile
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2e1926f838cd44f244ab16ca7a655cb7
+URL:		http://search.cpan.org/dist/Inline-Guile/
 BuildRequires:	perl-Guile >= 0.001
 BuildRequires:	perl-Inline >= 0.43
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -22,8 +23,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Inline::Guile - Inline module for the GNU Guile Scheme interpreter.
-It allows you to add blocks of Scheme code to your Perl scripts and
+Inline::Guile - Inline module for the GNU Guile Scheme interpreter. It
+allows you to add blocks of Scheme code to your Perl scripts and
 modules.
 
 %description -l pl.UTF-8
