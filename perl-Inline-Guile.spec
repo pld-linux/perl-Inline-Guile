@@ -4,7 +4,6 @@
 
 %define		pdir	Inline
 %define		pnam	Guile
-%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::Guile - an Inline module for the GNU Guile Scheme interpreter
 Summary(pl.UTF-8):	Inline::Guile - moduł Inline dla interpretera Scheme GNU Guile
 Name:		perl-Inline-Guile
